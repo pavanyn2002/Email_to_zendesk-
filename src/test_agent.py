@@ -1,4 +1,4 @@
-from src.agent import create_ticket
+from agent import create_ticket
 
 # Test with sample email
 sample_email = """

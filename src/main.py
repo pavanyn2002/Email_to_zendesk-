@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import uvicorn
-from src.agent import create_ticket
+from .agent import create_ticket
 
 app = FastAPI(title="IntelliTicket API", description="AI-Powered Support Ticket Creation")
 
